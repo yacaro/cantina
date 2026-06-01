@@ -3,14 +3,14 @@
    ========================================================================== */
 :root {
     /* Paleta de cores moderna */
-    --primary-color: #3498db;    /* Azul para botões e destaques */
-    --primary-hover: #2980b9;    /* Azul escuro para hover */
+    --primary-color: #65ac69;    /* Azul para botões e destaques */
+    --primary-hover: #399147;    /* Azul escuro para hover */
     --bg-color: #f4f7f6;         /* Cinza muito claro para o fundo */
     --card-color: #ffffff;       /* Branco para o fundo do formulário */
     --text-color: #2c3e50;       /* Cinza escuro para textos */
-    --text-secondary: #7f8c8d;   /* Cinza médio para subtítulos */
-    --border-color: #dcdde1;     /* Cinza claro para bordas */
-    --success-color: #2ecc71;    /* Verde para feedback positivo */
+    --text-secondary: #6b9b75;   /* Cinza médio para subtítulos */
+    --border-color: #16aa1e;     /* Cinza claro para bordas */
+    --success-color: #0c7237;    /* Verde para feedback positivo */
     
     /* Espaçamentos e bordas */
     --radius: 8px;
@@ -29,7 +29,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
-    display: flex;
+    display:contents;
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Centraliza verticalmente na tela */
@@ -43,7 +43,6 @@ body {
     background-color: var(--card-color);
     width: 100%;
     max-width: 500px; /* Largura máxima confortável */
-    padding: 40px;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     transition: var(--transition);
