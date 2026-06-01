@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Configurações Globais (Reset e Cores)
+   ========================================================================== */
+:root {
+    /* Paleta de cores moderna */
+    --primary-color: #3498db;    /* Azul para botões e destaques */
+    --primary-hover: #2980b9;    /* Azul escuro para hover */
+    --bg-color: #f4f7f6;         /* Cinza muito claro para o fundo */
+    --card-color: #ffffff;       /* Branco para o fundo do formulário */
+    --text-color: #2c3e50;       /* Cinza escuro para textos */
+    --text-secondary: #7f8c8d;   /* Cinza médio para subtítulos */
+    --border-color: #dcdde1;     /* Cinza claro para bordas */
+    --success-color: #2ecc71;    /* Verde para feedback positivo */
+    
+    /* Espaçamentos e bordas */
+    --radius: 8px;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding não altere o tamanho final */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centraliza verticalmente na tela */
+    padding: 20px;
+}
+
+/* ==========================================================================
+   Container Principal (O "Card" do formulário)
+   ========================================================================== */
+.container {
+    background-color: var(--card-color);
+    width: 100%;
+    max-width: 500px; /* Largura máxima confortável */
+    padding: 40px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+/* Efeito sutil ao passar o mouse no card (desktop) */
+.container:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ==========================================================================
+   Tipografia e Títulos
+   ========================================================================== */
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* Subtítulo ou descrição

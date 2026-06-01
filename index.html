@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Refeitório - Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pesquisa do Refeitório </h1>
+        <form id="feedbackForm">
+            <h3>1. Você vai almoçar hoje?</h3>
+            <select id="vai_almocar" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+
+            <h3>2. Precisa da 2ª opção de proteína (Vegetariano/Dietas)?</h3>
+            <select id="segunda_proteina" required>
+                <option value="Não">Não</option>
+                <option value="Sim">Sim</option>
+            </select>
+
+            <h3>3. Como estava a qualidade da comida ontem?</h3>
+            <select id="qualidade_comida" required>
+                <option value="Ótimo">Ótimo</option>
+                <option value="Bom">Bom</option>
+                <option value="Ruim">Ruim</option>
+            </select>
+
+            <button type="submit">Enviar Resposta</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
